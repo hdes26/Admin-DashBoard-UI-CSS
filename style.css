@@ -84,16 +84,32 @@ width: 40px;
 }
 .main .cajas{
     display: flex;
+    justify-content: center;
     width: 95%;
-    height: 134px;
     margin-top: 50px;
     
 }
 .main .cajas div{
+    width: 258px;
+    height: 134px;
     padding: 25px;
-    background-color: green;
+    background-color: #FFFFFF;
     margin-left: 50px;
+    border: 1px solid #DFE0EB;
+    border-radius: 8%;
+    font-size: 18px;
+    color: #9FA2B4;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
+
+.main .cajas div:hover{
+    border: 1px solid #3751FF;
+    color: #3751FF;
+}
+
 
 
 
