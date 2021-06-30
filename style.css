@@ -10,7 +10,7 @@ body{
     height: 1080px;
     display: flex;
     flex-direction: column;
-   width: 11%;
+   width: 13%;
    background-color: #363740;
    font-size: 20px;
    text-align: center;
@@ -43,12 +43,12 @@ body{
     display: flex;
     padding: 10px;
     background-color: #F7F8FC;
-    width: 89%;
+    width: 87%;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
 }
-.main-content{
+.maincontent{
     display: flex;
     width: 100%;
     height: 35px;
@@ -58,28 +58,28 @@ body{
     
 }
 
-.main-content .iconos{
+.maincontent .iconos{
     display: flex;
     width: 75%;
     justify-content: flex-end;
     border-right: 1px solid #DFE0EB;
     align-items: center;
 }
-.main-content .iconos a{
+.maincontent .iconos a{
     margin-right: 20px;
 }
-.main-content .iconos a:last-child{
+.maincontent .iconos a:last-child{
     margin-right: 30px;
 }
 
 
-.main-content #user-name{
+.maincontent #user-name{
     margin-left: 28px;
     text-decoration: none;
     color: black;
     font-size: 20px;
 }
-.main-content #img-user{
+.maincontent #img-user{
 border-radius: 50%;
 padding: 1px;
 border: 1px solid #DFE0EB;
@@ -94,7 +94,7 @@ width: 40px;
     margin-top: 50px;
     
 }
-.main .cajas a{
+.main .cajas div {
     width: 258px;
     height: 134px;
     padding: 25px;
@@ -102,23 +102,42 @@ width: 40px;
     margin-left: 50px;
     border: 1px solid #DFE0EB;
     border-radius: 8%;
+    
+}
+.main .cajas div a{
+    padding-top: 10px;
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
     font-size: 18px;
     color: #9FA2B4;
     text-align: center;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
+}
+.main .cajas div #numero{
+    padding-top: 0px;
+    font-size: 35px;
+    color: black;
+}
+
+.main .cajas div:hover{
+    border: 1px solid #3751FF;
+    
+}
+.main .cajas div:hover a{
+    color: #3751FF;
+    
+}
+.main .cajas div:hover #numero{
+    color: #3751FF;
     
 }
 
-.main .cajas a:hover{
-    border: 1px solid #3751FF;
-    color: #3751FF;
-}
-.main .cajas a:focus{
-    border: 1px solid #3751FF;
-    color: #3751FF;
-}
+
 
 
 .main .trends{
@@ -146,16 +165,16 @@ width: 40px;
 .main .trends #statics{
     width: 28%;
     color: #9FA2B4;
-    text-align: center;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
+    text-align: center;
     
 }
 .main .trends #statics aside{
     border-bottom: 1px solid #DFE0EB;
-    padding: 10%;
-    text-align: center;
+    padding: 8.5%;
+    align-self: start;
 }
 .main .trends #statics aside:last-child{
     border-bottom: none;
