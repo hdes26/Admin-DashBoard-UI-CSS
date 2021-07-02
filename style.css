@@ -7,7 +7,7 @@ body{
 }
 
 .menu{
-    height: 1080px;
+    height: auto;
     display: flex;
     flex-direction: column;
    width: 13%;
@@ -196,10 +196,25 @@ width: 40px;
 }
 
 .ticandtask{
+    
     display: flex;
     width: 82%;
-    height: 200px;
+    height: 340px;
     margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+#groupsupport{
+    display: flex;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-bottom: 27px;
+    color: rgba(128, 128, 128, 0.658);
+    
+}
+#groupsupport p{
+    margin-left: 2px;
+    color: rgba(0, 0, 0, 0.87);
 }
 
 .ticandtask #ticket{
@@ -210,23 +225,53 @@ width: 40px;
 }
 .ticandtask #ticket #unresolvedtickets{
     display: flex;
-    padding: 22px;
+    padding: 27px;
     justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 12px;
+}
+.ticandtask #ticket #unresolvedtickets a{
+    margin-top: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #3751FF;
+    
+}
+
+ .data div{
+    display: flex;
+   border-bottom: 1.5px solid #DFE0EB;
+   justify-content: space-between;
+   padding: 20px;
+   font-size: 14px;
+}
+
+.data div p{
+    color: rgba(128, 128, 128, 0.849);
+}
+.data div:last-child{
+
+   border-bottom: none;
 }
 .ticandtask  #task{
     display: flex;
     padding: 22px;
     justify-content: space-between;
-}
-
-
-.ticandtask #task{
     width: 50%;
     background-color: #FFFFFF;
     border: 1px solid #DFE0EB;
     border-radius: 2%;
     margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
+
+
+
 
 
 
