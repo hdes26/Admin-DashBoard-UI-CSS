@@ -195,6 +195,40 @@ width: 40px;
  
 }
 
+.ticandtask{
+    display: flex;
+    width: 82%;
+    height: 200px;
+    margin-top: 40px;
+}
+
+.ticandtask #ticket{
+    width:50% ;
+    background-color: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 2%;
+}
+.ticandtask #ticket #unresolvedtickets{
+    display: flex;
+    padding: 22px;
+    justify-content: space-between;
+}
+.ticandtask  #task{
+    display: flex;
+    padding: 22px;
+    justify-content: space-between;
+}
+
+
+.ticandtask #task{
+    width: 50%;
+    background-color: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 2%;
+    margin-left: 20px;
+}
+
+
 
 
 
