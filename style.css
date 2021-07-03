@@ -222,10 +222,11 @@ width: 40px;
     background-color: #FFFFFF;
     border: 1px solid #DFE0EB;
     border-radius: 2%;
+    margin-right: 20px;
 }
 .ticandtask #ticket #unresolvedtickets{
     display: flex;
-    padding: 27px;
+    padding: 30px;
     justify-content: space-between;
     font-size: 16px;
     font-weight: bold;
@@ -256,19 +257,58 @@ width: 40px;
    border-bottom: none;
 }
 .ticandtask  #task{
-    display: flex;
-    padding: 22px;
-    justify-content: space-between;
-    width: 50%;
+    width:50% ;
     background-color: #FFFFFF;
     border: 1px solid #DFE0EB;
     border-radius: 2%;
     margin-left: 20px;
+
+}
+.ticandtask #taskall{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
     font-size: 16px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    padding-bottom: 12px;
 }
+.ticandtask #taskall a{
+    margin-top: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #3751FF;
+}
+.datatask div{
+    display: flex;
+   border-bottom: 1.5px solid #DFE0EB;
+   justify-content: space-between;
+   padding: 20px;
+   font-size: 14px;
+}
+
+.datatask div p{
+    color: rgba(128, 128, 128, 0.849);
+}
+.datatask div:last-child{
+
+   border-bottom: none;
+}
+.datatask #createtask{
+    color: rgba(128, 128, 128, 0.692);
+}
+.datatask #createtask a{
+    height: 19px;
+    width: 19px;
+    background-color: #F0F1F7;
+    border-radius: 33%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #9FA2B4;
+    font-weight: bold;
+}
+
 
 
 
