@@ -104,7 +104,9 @@ display: flex;
 justify-content: space-between;
 }
 .allticket #filtros div {
-    display: flex;
     margin-left: 5px;
     margin-right: 5px;
+}
+.allticket #filtros #iconos{
+    display: flex;
 }
