@@ -88,3 +88,23 @@ margin-left:  20px;
 height: 40px;
 width: 40px;
 }
+.allticket{
+    margin-top: 30px;
+    display: flex;
+    width: 87%;
+    height: 810px;
+    background-color: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 1%;
+}
+.allticket #filtros {
+    width: 100%;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+}
+.allticket #filtros div {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+}
