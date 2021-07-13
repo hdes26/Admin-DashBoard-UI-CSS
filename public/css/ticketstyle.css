@@ -96,17 +96,40 @@ width: 40px;
     background-color: #FFFFFF;
     border: 1px solid #DFE0EB;
     border-radius: 1%;
+    flex-direction: column;
 }
 .allticket #filtros {
-    width: 100%;
+    width: 96%;
 padding: 20px;
 display: flex;
 justify-content: space-between;
+height: 40px;
 }
 .allticket #filtros div {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
+    height: 20px;
+    
 }
 .allticket #filtros #iconos{
     display: flex;
+    font-size: 14px;
+    text-align: center;
+}
+.ticketdetails{
+    display: flex;
+    margin-left: 0px;
+    border-bottom:   1px solid #DFE0EB;
+    padding-left: 30px;
+}
+.ticketdetails p{
+    margin-left: 250px;
+    font-weight: bold;
+    color: #9FA2B4;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+.ticketdetails p:first-child{
+    margin-left: 0px;
+    margin-right: 200px;
 }
